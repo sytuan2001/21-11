@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // bài 1
+    function alertMessage() {
+        alert("Hello World!");
+    }
+    console.log(alertMessage());
+    // bài 2
+    function tangLenMot(n) {
+        return n + 1;
+    }
+    let kq = tangLenMot(5);
+    document.write("Kết quả: " + kq);
+    // bài 3
+    function soSanh(a, b) {
+        if (a > b) {
+            alert("Số thứ nhất lớn hơn số thứ hai!");
+        } else {
+            return a + b;
+        }
+    }
+
+    let result = soSanh(3, 7);
+    document.write("Kết quả: " + result);
+    // bài 4
+    function addNumbers() {
+        let firstNum = 4;
+        let secondNum = 8;
+        let result = firstNum + secondNum;
+        return result;
+    }
+
+    let result = 0;
+    alert("Giá trị result ban đầu: " + result);
+
+    result = addNumbers();
+
+    alert("Giá trị result sau khi gọi hàm: " + result);
+</script>
+</body>
+</html>
